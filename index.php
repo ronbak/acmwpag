@@ -28,6 +28,7 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 			<link rel="stylesheet" href="css/style-normal.css" />
 		</noscript>
+        <link rel="stylesheet" href="css/ACMStyles.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -72,7 +73,7 @@
 					<header>
 						<h2>Que Hacemos</h2>
 					</header>
-					<p>Somos una comunidad de estudiantes apasionados por la programación. </p>
+					<p>Desarrollamos aplicaciones que benefician a la comunidad o solo por el gusto de programar.</p>
 				</div>
 				<a href="#two" class="button style2 down anchored">Next</a>
 			</section>
@@ -83,9 +84,7 @@
 					<header>
 						<h2>Quienes Somos</h2>
 					</header>
-					<p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum. 
-					Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu, 
-					id varius justo euismod in. Curabitur egestas consectetur magna.</p>
+					<p>Somos una comunidad de estudiantes apasionados por la programación y por ayudar a la comunidad a la que pertenecemos.</p>
 				</div>
 				<a href="#members" class="button style2 down anchored">Next</a>
 			</section>
@@ -111,8 +110,8 @@
                             {
                                 echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" alt="" /></a></div>
+								            <div class="6u profilePic"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" alt="" /></a></div>
+								            <div class="6u profilePic"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" alt="" /></a></div>
 							            </div>
                                         ';
                                 $i += 2;
@@ -126,8 +125,8 @@
                             {
                                 echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" alt="" /></a></div>
+								            <div class="6u profilePic"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" class="profilePic" alt="" /></a></div>
+								            <div class="6u profilePic"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" class="profilePic" alt="" /></a></div>
 							            </div>
                                         ';
                                 $i += 2;
@@ -135,8 +134,8 @@
 
                             echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$integrantes[($tamanoIntegrantes - 1)][2].'" class="image fit from-left"><img src="'.$integrantes[($tamanoIntegrantes - 1)][2].'" title="'.$integrantes[($tamanoIntegrantes - 1)][0].' - '.$integrantes[($tamanoIntegrantes - 1)][1].'" alt="" /></a></div>
-								            <div class="6u"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u profilePic"><a href="'.$integrantes[($tamanoIntegrantes - 1)][2].'" class="image fit from-left"><img src="'.$integrantes[($tamanoIntegrantes - 1)][2].'" title="'.$integrantes[($tamanoIntegrantes - 1)][0].' - '.$integrantes[($tamanoIntegrantes - 1)][1].'" class="profilePic" alt="" /></a></div>
+								            <div class="6u profilePic"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Proyecto en Construcción" class="profilePic" alt="" /></a></div>
 							            </div>
                                         ';
                         }
@@ -151,8 +150,8 @@
                             {
                                 echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" class="profilePic" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" class="profilePic" alt="" /></a></div>
 							            </div>
                                         ';
                                 $i += 2;
@@ -161,8 +160,8 @@
                             {
                                 echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" alt="" /></a></div>
-								            <div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" class="profilePic" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" class="profilePic" alt="" /></a></div>
 							            </div>
                                         ';
                                 $arr -= 2;
@@ -175,16 +174,16 @@
                             {
                                 echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="'.$integrantes[$i][2].'" class="image fit from-left"><img src="'.$integrantes[$i][2].'" title="'.$integrantes[$i][0].' - '.$integrantes[$i][1].'" class="profilePic" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="'.$integrantes[$i+1][2].'" class="image fit from-right"><img src="'.$integrantes[$i+1][2].'" title="'.$integrantes[$i+1][0].' - '.$integrantes[$i+1][1].'" class="profilePic" alt="" /></a></div>
 							            </div>
                                         ';
                                 $i += 2;
                             }
                             echo '
                                     <div class="row flush images">
-								        <div class="6u"><a href="'.$integrantes[($tamanoIntegrantes - 1)][2].'" class="image fit from-left"><img src="'.$integrantes[($tamanoIntegrantes - 1)][2].'" title="'.$integrantes[($tamanoIntegrantes - 1)][0].' - '.$integrantes[($tamanoIntegrantes - 1)][1].'" alt="" /></a></div>
-								        <div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								        <div class="6u" id="profileDiv"><a href="'.$integrantes[($tamanoIntegrantes - 1)][2].'" class="image fit from-left"><img src="'.$integrantes[($tamanoIntegrantes - 1)][2].'" title="'.$integrantes[($tamanoIntegrantes - 1)][0].' - '.$integrantes[($tamanoIntegrantes - 1)][1].'" class="profilePic" alt="" /></a></div>
+								        <div class="6u" id="profileDiv"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Proyecto en Construcción" class="profilePic" alt="" /></a></div>
 							        </div>
                                     ';
                             $arr -=1;
@@ -192,8 +191,8 @@
                             {
                                 echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" alt="" /></a></div>
-								            <div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" class="profilePic" alt="" /></a></div>
+								            <div class="6u" id="profileDiv"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" class="profilePic" alt="" /></a></div>
 							            </div>
                                         ';
                                 $arr -= 2;
@@ -227,8 +226,8 @@
                                     {
                                         echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
 							            </div>
                                         ';
                                         $i += 2;
@@ -242,8 +241,8 @@
                                     {
                                         echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
 							            </div>
                                         ';
                                         $i += 2;
@@ -251,8 +250,8 @@
 
                                     echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$proyectos[($tamanoProyectos - 1)][2].'" class="image fit from-left"><img src="'.$proyectos[($tamanoProyectos - 1)][2].'" title="'.$proyectos[($tamanoProyectos - 1)][0].'" alt="" /></a></div>
-								            <div class="6u"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[($tamanoProyectos - 1)][2].'" class="image fit from-left"><img src="'.$proyectos[($tamanoProyectos - 1)][2].'" title="'.$proyectos[($tamanoProyectos - 1)][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Proyecto en Construcción" alt="" /></a></div>
 							            </div>
                                         ';
                                 }
@@ -269,8 +268,8 @@
                                     {
                                         echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
 							            </div>
                                         ';
                                         $i += 2;
@@ -279,8 +278,8 @@
                                     {
                                         echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" alt="" /></a></div>
-								            <div class="6u"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" alt="" /></a></div>
 							            </div>
                                         ';
                                         $arr -= 2;
@@ -294,8 +293,8 @@
                                     {
                                         echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
-								            <div class="6u"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i][2].'" class="image fit from-left"><img src="'.$proyectos[$i][2].'" title="'.$proyectos[$i][0].'" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="'.$proyectos[$i+1][2].'" class="image fit from-right"><img src="'.$proyectos[$i+1][2].'" title="'.$proyectos[$i+1][0].'" alt="" /></a></div>
 							            </div>
                                         ';
                                         $i += 2;
@@ -303,8 +302,8 @@
 
                                     echo '
                                     <div class="row flush images">
-								        <div class="6u"><a href="'.$proyectos[($tamanoProyectos - 1)][2].'" class="image fit from-left"><img src="'.$proyectos[($tamanoProyectos - 1)][2].'" title="'.$proyectos[($tamanoProyectos - 1)][0].'" alt="" /></a></div>
-								        <div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								        <div class="6u" id="projectsDiv"><a href="'.$proyectos[($tamanoProyectos - 1)][2].'" class="image fit from-left"><img src="'.$proyectos[($tamanoProyectos - 1)][2].'" title="'.$proyectos[($tamanoProyectos - 1)][0].'" alt="" /></a></div>
+								        <div class="6u" id="projectsDiv"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Proyecto en Construcción" alt="" /></a></div>
 							        </div>
                                     ';
 
@@ -313,8 +312,8 @@
                                     {
                                         echo '
                                         <div class="row flush images">
-								            <div class="6u"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" alt="" /></a></div>
-								            <div class="6u"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Proyecto en Construcción" alt="" /></a></div>
+								            <div class="6u" id="projectsDiv"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Proyecto en Construcción" alt="" /></a></div>
 							            </div>
                                         ';
                                         $arr -= 2;
