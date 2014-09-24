@@ -8,7 +8,7 @@
 $integrantes = [
     array( "Diego Gomez", "CEO", "https://scontent-a.xx.fbcdn.net/hphotos-xap1/t1.0-9/60573_472733149739_365699_n.jpg"),
     array( "Diego Rodriguez", "VP", "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xap1/t1.0-9/10169336_10152361844514313_3204006109685667910_n.jpg"),
-    array( "Diego Vanegas", "PR", "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/10552535_10152542599777908_500766573686849000_n.jpg"),
+    array( "Diego Vanegas", "CTO - PR", "https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xfa1/t1.0-9/10552535_10152542599777908_500766573686849000_n.jpg"),
     array( "David Paternina", "Dev Team", "https://scontent-a.xx.fbcdn.net/hphotos-xfa1/t31.0-8/920030_10203024644829913_5829924610810653281_o.jpg"),
     array( "Camilo Ortiz", "Dev Team", "https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10644974_10152404566957877_1041527856763761942_n.jpg?oh=47086da4ba02baf2ab7ed3d745165711&oe=54CB2606&__gda__=1422322448_57514c930021a43e4e7d3daf87d8736d"),
 ];
