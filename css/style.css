@@ -14,7 +14,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #777;
+		color: #ADB30E;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -51,7 +51,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
+		color: #D9E021;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -201,7 +201,7 @@
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #777;
+			color: #ADB30E;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
