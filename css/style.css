@@ -14,7 +14,7 @@
 	}
 
 	body, input, select, textarea {
-		color: #ADB30E;
+		color: #006296;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -51,7 +51,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #D9E021;
+		color: #0084CB;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -201,7 +201,7 @@
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #ADB30E;
+			color: #006296;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -1363,7 +1363,7 @@
 /* CTA */
 
 	#cta {
-		background: #0082cb;
+		background: #D9E021;
 		color: #fff;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
@@ -1384,8 +1384,8 @@
 		#cta input[type="button"],
 		#cta .button {
 			box-shadow: none;
-			background: #fff;
-			color: #0082cb;
+			background: #ADB30E;
+			color: #fff;
 		}
 
 		#cta input[type="text"],
