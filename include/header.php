@@ -28,6 +28,7 @@
 	<body class="landing">
 
 		<!-- Header -->
+			<!--
 			<header id="header" class="alt">
 				<h1></h1>
 				<nav id="nav">
@@ -53,4 +54,4 @@
 						<li><a href="#" class="button">Sign Up</a></li>
 					</ul>
 				</nav>
-			</header>
+			</header> -->

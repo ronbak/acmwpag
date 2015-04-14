@@ -7,7 +7,7 @@
 					<li><a href="#" class="icon fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
 				</ul>
 				<ul class="copyright">
-					<li>&copy; ACM Uniandes. All rights reserved.</li>
+					<li>&copy; <?php echo date('Y'); ?> ACM Uniandes. All rights reserved.</li>
 				</ul>
 			</footer>
 
