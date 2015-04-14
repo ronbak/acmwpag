@@ -23,7 +23,7 @@
 						<p>Somos un grupo de estudiantes motivados y apasionados por la computación,
 						 por experimentar, aprender y construir cosas nuevas para aportarle a nuestra comunidad.</p>
 					</header>
-					<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+					<span class="image featured"><img src="images/ml_uniandes.jpg" alt="" /></span>
 				</section>
 
 				<section class="box special features">
@@ -34,19 +34,19 @@
 							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 						</section>
 						<section>
-							<span class="icon major fa-area-chart accent3"></span>
+							<span class="icon major fa-bed accent3"></span>
 							<h3>¿Qué hacemos?</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 						</section>
 					</div>
 					<div class="features-row">
 						<section>
-							<span class="icon major fa-cloud accent4"></span>
+							<span class="icon major fa-bug accent4"></span>
 							<h3>¿Cómo lo hacemos?</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 						</section>
 						<section>
-							<span class="icon major fa-lock accent5"></span>
+							<span class="icon major fa-question accent5"></span>
 							<h3>¿Qué es ACM?</h3>
 							<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
 						</section>
